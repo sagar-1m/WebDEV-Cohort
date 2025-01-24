@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter-6</title>
+    <style>
+      td {
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>table</h1>
+    <table border="1">
+      <tr>
+        <th>City</th>
+        <th>Country</th>
+        <th>Population</th>
+      </tr>
+      <tr>
+        <td>Delhi</td>
+        <td>India</td>
+        <td>1.9 Cr</td>
+      </tr>
+      <tr>
+        <td>Beijing</td>
+        <td>China</td>
+        <td>2.2 Cr</td>
+      </tr>
+      <tr>
+        <td>Washington</td>
+        <td>USA</td>
+        <td>6.8 Cr</td>
+      </tr>
+    </table>
+
+    // create a table with a caption that lists your favorite food and their
+    respective categories
+    <table border="1">
+      <caption>
+        My favorite food
+      </caption>
+      <tr>
+        <th>Food</th>
+        <th>Category</th>
+      </tr>
+      <tr>
+        <td>Pizza</td>
+        <td>Fast food</td>
+      </tr>
+      <tr>
+        <td>Paneer</td>
+        <td>Indian</td>
+      </tr>
+      <tr>
+        <td>Salad</td>
+        <td>Healthy</td>
+      </tr>
+    </table>
+
+    // use colspan and rowspan to create a complex table layout for a timetable
+
+    <table border="4">
+      <caption>
+        Time Table
+      </caption>
+      <tr>
+        <th>Day/Period</th>
+        <th>I <br />9:30-10:20</th>
+        <th>II <br />10:20-11:10</th>
+        <th>III <br />11:10-12:00</th>
+        <th>IV <br />12:00-12:50</th>
+        <th>V <br />12:50-1:40</th>
+        <th>VI <br />1:40-2:30</th>
+        <th>VII <br />2:30-3:20</th>
+        <th>VIII <br />3:20-4:00</th>
+      </tr>
+      <tr>
+        <th>Monday</th>
+        <td>Eng</td>
+        <td>Maths</td>
+        <td>Chem</td>
+        <th rowspan="6">LUNCH</th>
+        <td></td>
+        <td>LAB</td>
+        <td></td>
+        <td>Phy</td>
+      </tr>
+      <tr>
+        <th>Tuesday</th>
+        <td></td>
+        <td>LAB</td>
+        <td></td>
+        <td>Eng</td>
+        <td>Chem</td>
+        <td>MAths</td>
+        <td>SPORTS</td>
+      </tr>
+      <tr>
+        <th>Wednesday</th>
+        <td>Maths</td>
+        <td>Phy</td>
+        <td>Eng</td>
+        <td>Chem</td>
+        <td></td>
+        <td>LIBRARY</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Thursday</th>
+        <td>Phy</td>
+        <td>Eng</td>
+        <td>Chem</td>
+        <td></td>
+        <td>LAB</td>
+        <td></td>
+        <td>MAths</td>
+      </tr>
+      <tr>
+        <th>Friday</th>
+        <td></td>
+        <td>LAB</td>
+        <td></td>
+        <td>Maths</td>
+        <td>Chem</td>
+        <td>Eng</td>
+        <td>Phy</td>
+      </tr>
+      <tr>
+        <th>Saturday</th>
+        <td>Eng</td>
+        <td>Chem</td>
+        <td>Maths</td>
+        <td colspan="3">SEMINAR</td>
+        <td>SPORTS</td>
+      </tr>
+    </table>
+  </body>
+</html>

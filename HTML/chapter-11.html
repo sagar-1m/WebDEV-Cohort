@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter-11</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" /><br /><br />
+      <label for="color">Favorite Color:</label>
+      <input type="color" id="color" name="color" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <video
+      src="https://www.w3schools.com/html/mov_bbb.mp4"
+      width="320"
+      height="240"
+      controls
+      autoplay
+      poster="https://www.w3schools.com/html/pic_trulli.jpg"
+    ></video>
+
+    <canvas
+      id="myCanvas"
+      width="200"
+      height="100"
+      style="border: 1px solid #000000"
+    ></canvas>
+    <script>
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+      ctx.fillStyle = "#FF0000";
+      ctx.fillRect(0, 0, 150, 75);
+    </script>
+  </body>
+</html>

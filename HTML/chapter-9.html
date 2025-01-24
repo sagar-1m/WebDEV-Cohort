@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter-9</title>
+  </head>
+  <body>
+    <video
+      width="320"
+      height="240"
+      controls
+      autoplay
+      poster="https://www.w3schools.com/html/pic_trulli.jpg"
+    >
+      <source
+        src="https://www.w3schools.com/html/mov_bbb.mp4"
+        type="video/mp4"
+      />
+      <source
+        src="https://www.w3schools.com/html/mov_bbb.ogg"
+        type="video/ogg"
+      />
+
+      <track
+        src="subtitles_en.vtt"
+        kind="subtitles"
+        srclang="en"
+        label="English"
+      />
+      <track
+        src="subtitles_no.vtt"
+        kind="subtitles"
+        srclang="no"
+        label="Norwegian"
+      />
+    </video>
+
+    <audio controls>
+      <source src="horse.ogg" type="audio/ogg" />
+      <source src="horse.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/tgbNymZ7vqY"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <table>
+      <tr>
+        <th>Format</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>MP4</td>
+        <td>Common video format</td>
+      </tr>
+      <tr>
+        <td>WebM</td>
+        <td>Open video format</td>
+      </tr>
+      <tr>
+        <td>Ogg</td>
+        <td>Open video format</td>
+      </tr>
+      <tr>
+        <td>MP3</td>
+        <td>Common audio format</td>
+      </tr>
+      <tr>
+        <td>Wav</td>
+        <td>Common audio format</td>
+      </tr>
+      <tr>
+        <td>WebM</td>
+        <td>Open audio format</td>
+      </tr>
+    </table>
+  </body>
+</html>

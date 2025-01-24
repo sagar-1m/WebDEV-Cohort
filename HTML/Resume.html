@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume purely in HTML</title>
+    <style>
+      body {
+        background-color: #f0f4f8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+      }
+      .container {
+        max-width: 800px;
+        width: 100%;
+        padding: 20px;
+        background-color: #f8f0f0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      header,
+      nav,
+      section {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img
+          src="./Profileimage.jpg"
+          alt="Sagar Maheshwari"
+          style="width: 150px; border-radius: 50%"
+        />
+        <h1>Sagar Maheshwari</h1>
+        <p>Phone: +91-7827899645 | Email: maheshwarisagar65@gmail.com</p>
+        <p>
+          <a href="https://linkedin.com/in/sagar-maheshwari-1m">LinkedIn</a>
+        </p>
+      </header>
+      <hr />
+
+      <!-- Navigation Links -->
+      <nav>
+        <a href="#technical-skills">Technical Skills</a> |
+        <a href="#experience">Experience</a> |
+        <a href="#projects">Projects</a> | <a href="#education">Education</a> |
+        <a href="#certifications">Certifications</a> |
+        <a href="#achievements">Achievements</a>
+      </nav>
+      <hr />
+
+      <main>
+        <section id="technical-skills">
+          <h2>Technical Skills</h2>
+          <ul>
+            <li>Languages: C++, JavaScript, SQL, Java (Basic)</li>
+            <li>Frontend: HTML, CSS, ReactJS, TailwindCSS</li>
+            <li>Backend: NodeJS, ExpressJS</li>
+            <li>Database: MySQL, MongoDB</li>
+            <li>Tools: Git, GitHub, VS Code, Postman</li>
+            <li>Build Tools: NPM, Vercel, AWS</li>
+          </ul>
+        </section>
+        <hr />
+
+        <section id="experience">
+          <h2>Experience</h2>
+          <div>
+            <h3>Software Developer at ABC Pvt. Ltd.</h3>
+            <div style="display: flex; align-items: center">
+              <div style="flex: 1">
+                <strong>Duration:</strong> Jan 2024 - Apr 2024<br />
+                <strong>Location:</strong> Remote, India
+              </div>
+              <div style="flex: 2">
+                <ul>
+                  <li>
+                    Developed and maintained a task management web application.
+                  </li>
+                  <li>
+                    Improved cross-device compatibility and responsiveness.
+                  </li>
+                  <li>
+                    Created and optimized an Amazon clone landing page,
+                    achieving a 20% increase in page load speed.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr />
+
+        <section id="projects">
+          <h2>Projects</h2>
+          <h3>Logic Viz - Algorithm Visualizer</h3>
+          <p>
+            Tech Stack: ReactJS, TailwindCSS, NodeJS, ExpressJS, MongoDB, HTML
+          </p>
+          <ul>
+            <li>
+              Implemented visualization for sorting and searching algorithms.
+            </li>
+            <li>
+              Integrated user authentication and data storage using MongoDB.
+            </li>
+          </ul>
+
+          <h3>LinkedIn AI Reply Chrome Extension</h3>
+          <p>Tech Stack: ReactJS, TypeScript, Plasmo</p>
+          <ul>
+            <li>
+              Developed a Chrome extension to generate AI-based reply
+              suggestions for LinkedIn messages.
+            </li>
+            <li>Used Plasmo to streamline development and deployment.</li>
+          </ul>
+
+          <h3>To-Do Master</h3>
+          <p>Tech Stack: HTML, CSS, JavaScript</p>
+          <ul>
+            <li>
+              Built a web-based to-do list application with offline support.
+            </li>
+            <li>
+              Implemented local storage to save tasks across browser sessions.
+            </li>
+          </ul>
+
+          <h3>Textify</h3>
+          <p>Tech Stack: HTML, CSS, JavaScript, ReactJS</p>
+          <ul>
+            <li>
+              Developed a text editor with live Markdown preview functionality.
+            </li>
+            <li>
+              Integrated syntax highlighting and export to various formats.
+            </li>
+          </ul>
+        </section>
+        <hr />
+
+        <section id="education">
+          <h2>Education</h2>
+          <table border="1">
+            <tr>
+              <th>Degree</th>
+              <th>Institute</th>
+              <th>Duration</th>
+              <th>Location</th>
+              <th>CGPA</th>
+            </tr>
+            <tr>
+              <td>B.Tech in Information Technology</td>
+              <td>GGSIPU University</td>
+              <td>2020 - 2024</td>
+              <td>New Delhi, India</td>
+              <td>9.36</td>
+            </tr>
+            <td colspan="5">
+              <ul>
+                <strong>Relevant Coursework and Achievements:</strong>
+                <li>
+                  Completed courses in Data Structures, Algorithms, and Database
+                  Management Systems.
+                </li>
+                <li>
+                  Participated in hackathons and coding competitions, securing
+                  top-3 positions.
+                </li>
+              </ul>
+            </td>
+          </table>
+        </section>
+        <hr />
+
+        <section id="certifications">
+          <h2>Certifications</h2>
+          <ul>
+            <li>Microsoft Certified: Azure AI Fundamentals (AI-900)</li>
+            <li>IBM Full Stack Developer Apprenticeship</li>
+          </ul>
+        </section>
+        <hr />
+
+        <section id="achievements">
+          <h2>Achievements</h2>
+          <ul>
+            <li>Top 1000 Winner in Microsoft Asia AI Odyssey Challenge</li>
+            <li>All India Rank 315 in CodeKaze 2024</li>
+            <li>
+              Solved over 300+ problems on coding platforms like LeetCode,
+              Code360, and GFG
+            </li>
+          </ul>
+        </section>
+        <hr />
+      </main>
+    </div>
+  </body>
+</html>
