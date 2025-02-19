@@ -68,7 +68,7 @@ calculator
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/calculator.git
+git clonehttps://github.com/sagar-1m/WebDEV-Cohort/tree/main/DOM/Calculator.git
 ```
 
 2. Navigate to the project directory
