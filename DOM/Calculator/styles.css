@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, #00416a, #e4e5e6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Arial", sans-serif;
+}
+
+.calculator {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 400px;
+}
+
+.display {
+  grid-column: 1 / -1;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.previous-operand {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.5rem;
+  min-height: 30px;
+}
+
+.current-operand {
+  color: white;
+  font-size: 2.5rem;
+}
+
+button {
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  color: #333;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+.operator,
+.equals {
+  background: rgba(255, 165, 0, 0.75);
+  color: white;
+}
+
+.operator:hover,
+.equals:hover {
+  background: rgba(255, 165, 0, 0.9);
+}
+
+.ac,
+.del {
+  background: rgba(255, 69, 0, 0.75);
+  color: white;
+}
+
+.ac:hover,
+.del:hover {
+  background: rgba(255, 69, 0, 0.9);
+}
