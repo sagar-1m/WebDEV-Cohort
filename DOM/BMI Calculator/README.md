@@ -8,6 +8,11 @@ A modern and intuitive Body Mass Index (BMI) calculator built with HTML, CSS, an
 
 _Modern BMI Calculator with Glass-morphism Design_
 
+## Deployment
+
+This project is deployed using GitHub Pages and can be accessed at:
+[BMI Calculator Live Demo](https://bmi-calculator-indol-tau.vercel.app/)
+
 ## Features
 
 - Real-time input validation
@@ -83,11 +88,6 @@ cd WebDEV-Cohort/DOM/BMI\ Calculator
 ```
 
 3. Open `index.html` in your browser
-
-## Deployment
-
-This project is deployed using GitHub Pages and can be accessed at:
-[BMI Calculator Live Demo](https://sagar-1m.github.io/WebDEV-Cohort/DOM/BMI%20Calculator/)
 
 ## Edge Cases Handled
 
