@@ -6,6 +6,11 @@ A modern and intuitive review collection system built with HTML, CSS, and JavaSc
 
 ![Review Collector Demo](images/Review%20Collector%20-%20DOM%20project.png)
 
+## Deployment
+
+This project is deployed using GitHub Pages:
+[Review Collector Live Demo](https://review-collector-ochre.vercel.app/)
+
 ## Features
 
 - Interactive star rating system
@@ -85,11 +90,6 @@ cd WebDEV-Cohort/DOM/Review\ Collector
 - Responsive design
 - Error handling
 - Modern UI/UX
-
-## Deployment
-
-This project is deployed using GitHub Pages:
-[Review Collector Live Demo](https://sagar-1m.github.io/WebDEV-Cohort/DOM/Review%20Collector/)
 
 ## Edge Cases Handled
 
