@@ -25,13 +25,14 @@ A clean and intuitive calculator built with HTML, CSS, and JavaScript. This proj
 ## Project Structure
 
 ```
-calculator
-│   images/  # Project images
-│   index.html  # Main HTML file
-│   README.md  # Project documentation
-│   styles.css  # CSS styles
-│   script.js # JavaScript logic
-
+Cohort/
+└── DOM/
+    └── Calculator/
+        ├── images/          # Project images
+        ├── index.html       # Main HTML file
+        ├── styles.css       # CSS styles
+        ├── script.js        # JavaScript logic
+        └── README.md        # Project documentation
 ```
 
 ## Implementation Details
@@ -68,16 +69,16 @@ calculator
 1. Clone the repository
 
 ```bash
-git clonehttps://github.com/sagar-1m/WebDEV-Cohort/tree/main/DOM/Calculator.git
+git clone https://github.com/sagar-1m/WebDEV-Cohort.git
 ```
 
 2. Navigate to the project directory
 
 ```bash
-cd calculator
+cd WebDEV-Cohort/DOM/Calculator
 ```
 
-3. Open the index.html file in your browser
+3. Open the `index.html` file in your browser
 
 4. Start using the calculator
 
