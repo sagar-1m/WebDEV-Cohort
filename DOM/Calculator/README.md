@@ -6,6 +6,10 @@ A clean and intuitive calculator built with HTML, CSS, and JavaScript. This proj
 
 ![Calculator Demo](images/Calculator%20-%20JS%20DOM%20project.png)
 
+## Live Demo
+
+[Calculator - Live Preview](https://web-dev-cohort-eight.vercel.app/)
+
 ## Features
 
 - Basic arithmetic operations (+, -, ×, ÷)
