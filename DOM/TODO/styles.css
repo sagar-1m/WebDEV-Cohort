@@ -1,0 +1,117 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.app-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 400px;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#task-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+#task-input::placeholder {
+  color: #ddd;
+}
+
+#add-task-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#add-task-btn:hover {
+  background-color: #218838;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.task-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.task-item.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.task-item button {
+  margin-left: 5px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-item .edit-btn {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.task-item .edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.task-item .delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.task-item .delete-btn:hover {
+  background-color: #c82333;
+}
+
+.task-item .complete-btn {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.task-item .complete-btn:hover {
+  background-color: #138496;
+}
