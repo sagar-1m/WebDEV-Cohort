@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Debounce vs Throttle Console Log</title>
+  </head>
+  <body>
+    <h2>Open your browser console (F12) and start typing...</h2>
+    <input
+      type="text"
+      id="input"
+      placeholder="Start typing..."
+      style="padding: 10px; width: 300px; font-size: 16px"
+    />
+
+    <script>
+      // Debounce function
+      function debounce(func, delay) {
+        let timeoutId;
+        return function (...args) {
+          clearTimeout(timeoutId);
+          timeoutId = setTimeout(() => {
+            func.apply(this, args);
+          }, delay);
+        };
+      }
+
+      // Throttle function
+      function throttle(func, limit) {
+        let lastCall = 0;
+        return function (...args) {
+          const now = Date.now();
+          if (now - lastCall >= limit) {
+            lastCall = now;
+            func.apply(this, args);
+          }
+        };
+      }
+
+      const input = document.getElementById("input");
+
+      const handleDebounce = debounce((e) => {
+        console.log("🔁 Debounced:", e.target.value);
+      }, 1000);
+
+      const handleThrottle = throttle((e) => {
+        console.log("⚡ Throttled:", e.target.value);
+      }, 1000);
+
+      input.addEventListener("input", (e) => {
+        handleDebounce(e);
+        handleThrottle(e);
+      });
+    </script>
+  </body>
+</html>
